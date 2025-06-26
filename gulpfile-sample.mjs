@@ -6,10 +6,10 @@ import inquirer from 'inquirer';
 import path from 'path';
 
 export function watch() {
-	browserSync.init( [ '**/*' ], { 
+	browserSync.init( [ '**/*' ], {
 		proxy:	'',
 		host:		'',
-		notify:	false 
+		notify:	false
 	});
 }
 
@@ -37,7 +37,7 @@ async function buildPackage() {
 	const archiveName = `${baseName}.${version}.zip`;
 	const outputPath = path.resolve('./builds', archiveName);
 	const inputPath = './';
-	const excludePatterns = ['builds/**', 'gulpfile.mjs', 'node_modules/**', 'package-lock.json', '*.code-workspace'];
+	const excludePatterns = ['assets/styles/scss/**', 'builds/**', 'gulpfile.mjs', 'node_modules/**', 'package.json', 'package-lock.json', 'phpcs.xml', '*.code-workspace'];
 
 	const output = fs.createWriteStream(outputPath);
 	const archive = archiver('zip', { zlib: { level: 9 } });
