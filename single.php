@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-<main class="main" id="treść">
+<main class="main" id="main" tabindex="-1">
 	<?php while ( have_posts() ) : ?>
 		<?php the_post(); ?>
 

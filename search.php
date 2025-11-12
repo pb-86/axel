@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-<main class="main" id="treść">
+<main class="main" id="main" tabindex="-1">
 	<!--Tytuł-->
 	<h1>Wyniki wyszukiwania</h1>
 	<div>Szukałeś: <?php echo get_search_query(); ?></div>
@@ -24,7 +24,7 @@ get_header();
 			<?php get_template_part( 'template-parts/excerpt' ); ?>
 
 		<?php endwhile; ?>
-		
+
 		<!--Stronicowanie wpisów-->
 		<?php the_posts_pagination(); ?>
 	<?php endif; ?>

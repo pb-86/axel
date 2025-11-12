@@ -18,7 +18,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-	<?php get_template_part( 'template-parts/menu', 'skip-links' ); ?>
+	<?php get_template_part( 'template-parts/menu', 'skip-link' ); ?>
 
 	<header class="header">
 		<?php get_template_part( 'template-parts/site-name' ); ?>
