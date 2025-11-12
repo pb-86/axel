@@ -12,9 +12,9 @@
   "devDependencies": {
     "archiver": "^7.0.1",
     "browser-sync": "^3.0.4",
-    "gulp": "^5.0.0",
-    "gulp-cli": "^3.0.0",
-    "inquirer": "^12.6.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "inquirer": "^12.11.0",
     "path": "^0.12.7"
   }
 }
