@@ -8,4 +8,4 @@
  */
 
 // Adres folderu, w którym znajdują się pliki skryptów JS.
-define( 'AXEL_SCRIPTS', get_template_directory_uri() . '/assets/scripts/' );
+define( 'SITE_SCRIPTS', get_template_directory_uri() . '/assets/scripts/' );
