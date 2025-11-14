@@ -7,12 +7,12 @@
  * @author Reddog Systems <p.bachorek@red-dog.pl>
  */
 
-add_action( 'after_setup_theme', 'axel_setup_theme' );
+add_action( 'after_setup_theme', 'setup_site_theme' );
 
 /**
  * Konfiguruje motyw.
  */
-function axel_setup_theme() {
+function setup_site_theme() {
 	// Włącza obsługę miniaturek.
 	add_theme_support( 'post-thumbnails' );
 
