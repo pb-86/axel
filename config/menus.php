@@ -14,8 +14,8 @@ add_action( 'after_setup_theme', 'register_site_menus' );
  */
 function register_site_menus() {
 	$menus = array(
-		'menu_header' => __( 'Menu główne', 'axel' ),
-		'menu_footer' => __( 'Menu w stopce', 'axel' ),
+		'menu_header' => esc_html( __( 'Menu główne', 'axel' ) ),
+		'menu_footer' => esc_html( __( 'Menu w stopce', 'axel' ) ),
 	);
 	register_nav_menus( $menus );
 }
