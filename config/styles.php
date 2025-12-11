@@ -8,4 +8,4 @@
  */
 
 // Adres folderu, w którym znajdują się arkusze stylów CSS.
-define( 'SITE_STYLES', get_template_directory_uri() . '/assets/styles/' );
+define( 'THEME_STYLES_DIR', get_template_directory_uri() . '/assets/styles/' );
