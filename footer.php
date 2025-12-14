@@ -15,7 +15,7 @@
 	</nav>
 
 	<footer class="footer">
-		<!--Elementy stopki-->
+		<?php get_template_part( 'template-parts/credits' ); ?>
 	</footer>
 
 <?php wp_footer(); ?>
