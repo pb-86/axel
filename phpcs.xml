@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <ruleset name="WordPress">
+    <description>Konfiguracja dla tego motywu</description>
     <rule ref="WordPress" />
-    <file>./</file>
+    <exclude-pattern>*/node_modules/*</exclude-pattern>
+    <arg name="extensions" value="php" />
+    <file>.</file>
 </ruleset>
